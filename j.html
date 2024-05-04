@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Learning Roadmap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/c.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="Index.html" class="navbar-brand">
+                <img src="../Pics/logo3-modified.jpg" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFFJREFUSEvtlEkKADAIA83/H52eu1APZQShnquTBaqAR/D9+IA04fqIbDuVdXkgaRK9OcABL+pPu/Ud4A7wDnAAHlF/AN4BDujfwXewJoD/pgNrVBgZX2h0sgAAAABJRU5ErkJggg==" />
+            </button>
+            <div class="links collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="Index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="Contact.html">Contacts</a></li>
+                </ul>
+                <div class="user links">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <button type="button" class="btn btn-outline-primary btn-lg" onclick="Login()">Login</button>
+                        <button type="button" class="btn btn-primary btn-lg" onclick="SignUp()">Sign up</button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="heading">Java Programming Roadmap</div>
+        <div class="intro">
+            <div class="card">
+                <h3>What is Java</h3>
+                Developed by Sun Microsystems in 1995, Java is a highly popular, object-oriented programming language.
+                This platform independent programming language is utilized for Android development, web development,
+                artificial intelligence, cloud applications, and much more.
+
+                In this tutorial, we will cover everything from the basics of Java syntax to advanced topics like
+                object-oriented programming and exception handling. So, by the end of this tutorial, you will have a
+                strong understanding of Java and be ready to start writing your own Java applications. So let’s get
+                started on this comprehensive Java programming tutorial!
+            </div>
+            <br><br>
+            <div class="card">
+                <h3>Why learn Java</h3>
+                Learning Java can be a significant asset for aspiring developers due to its widespread adoption,
+                versatility, and strong community support. Java's prominence in various industries, including finance,
+                e-commerce, and mobile app development, ensures plentiful job opportunities and career growth prospects.
+                Its platform independence, facilitated by the Java Virtual Machine (JVM), enables developers to create
+                cross-platform applications efficiently. Furthermore, Java's object-oriented approach fosters code
+                organization and modularity, enhancing software maintainability. With a rich ecosystem of libraries,
+                frameworks, and tools, Java developers can streamline development processes and stay abreast of industry
+                trends. Mastering Java not only opens doors to lucrative career paths but also provides a solid
+                foundation for continuous learning and adaptation in the ever-evolving field of software development.
+            </div>
+            <br><br>
+            <div class="card">
+                <h3>The main features of the Java language include:</h3>
+                <ul>
+                    <li>Platform independence: Java programs can run on any device with a Java Virtual Machine (JVM)
+                        installed.</li>
+                    <li>Object-oriented programming (OOP): Java supports OOP principles such as encapsulation,
+                        inheritance, and polymorphism.</li>
+                    <li>Rich ecosystem: Java offers a vast array of libraries, frameworks, and tools to streamline
+                        development processes.</li>
+                    <li>Strong community support: Java boasts an active community of developers who provide resources
+                        and assistance.</li>
+                    <li>Versatility: Java can be used for various types of development, including web development,
+                        mobile app development (Android), and enterprise software development.</li>
+                    <li>Portability: Java's "write once, run anywhere" philosophy ensures that Java programs can run on
+                        multiple platforms.</li>
+                    <li>High performance: Java's Just-In-Time (JIT) compiler and efficient memory management contribute
+                        to its performance.</li>
+                </ul>
+            </div>
+            <br><br>
+            <h3 class="last">Roadmap</h3>
+            <div class="roadmap">
+                <header>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">Beginner Level</button>
+                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                            type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Intermediate
+                            Level</button>
+                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                            type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Advanced
+                            Level</button>
+                        <button class="nav-link" id="nav-Expert-tab" data-bs-toggle="tab" data-bs-target="#nav-Expert"
+                            type="button" role="tab" aria-controls="nav-Expert" aria-selected="false">Expert
+                            Level</button>
+                    </div>
+                </header>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                        tabindex="0">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Introduction to Java
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a
+                                            href="https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/?ref=lbp">
+                                            Reference Link</a> <br>
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/ntLJmHOJ0ME?si=MXJ6ZXOrr2h7z_kb"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Control Flow and Looping
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a
+                                            href="https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/?ref=lbp">
+                                            Reference Link</a> <br>
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/YPK6NYMJt_A?si=8-_FDFr_juE_77mh"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Input and Output Handling
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a
+                                            href="https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/?ref=lbp">
+                                            Reference Link</a> <br>
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/kD_HqZP8MLY?si=PAZHd0OQRa7rVqaC"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                        tabindex="0">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Collections Framework
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a
+                                            href="https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/?ref=lbp">
+                                            Reference Link</a> <br>
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/s8yrPZlvNP0?si=Mf2L07HHOWyLexH7"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Generics and Type Safety
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a
+                                            href="https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/?ref=lbp">
+                                            Reference Link</a> <br>
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/BsBK3UZ0RGM?si=0wyxtbYlg3HtX6yT"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Multithreading and Concurrency
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a
+                                            href="https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/?ref=lbp">
+                                            Reference Link</a> <br>
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/YDH7f9dTXAs?si=OZSeNUim2yqvSlNB"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"
+                        tabindex="0">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        File Handling and I/O Streams
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a
+                                            href="https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/?ref=lbp">
+                                            Reference Link</a> <br>
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/Vy2l3lGAb2I?si=-nQVwYZNVWagtuFd"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Database Connectivity (JDBC)
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a
+                                            href="https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/?ref=lbp">
+                                            Reference Link</a> <br>
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/7v2OnUti2eM?si=Wd7mz9Zy5KgjSuYe"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Java EE Basics
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a
+                                            href="https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/?ref=lbp">
+                                            Reference Link</a> <br>
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/l1Y-mFWpVm0?si=O7ch-HTLHoRoGh0A"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-Expert" role="tabpanel" aria-labelledby="nav-Expert-tab"
+                        tabindex="0">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Frameworks and Libraries
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a
+                                            href="https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/?ref=lbp">
+                                            Reference Link</a> <br>
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/JENICetpIKM?si=ihDO41X6g8Q33tU6"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Design Patterns
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a
+                                            href="https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/?ref=lbp">
+                                            Reference Link</a> <br>
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/tDxnyop48mY?si=xgELse2EUryZeZpZ"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Performance Optimization and Best Practices
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a
+                                            href="https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/?ref=lbp">
+                                            Reference Link</a> <br>
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/YB2xvYCY4B8?si=SAenuYl0oFUwX8hm"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Completion</h3>
+            <p class="per">0%</p>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar" style="width: 0%"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="About_us">
+            <h4>About us</h4>
+            <p>Welcome to Skill Route, your ultimate destination for mastering computer languages! At Skill Route, we
+                believe in the power of learning and the endless possibilities it brings. Whether you're a beginner
+                taking your first steps into the world of programming or an experienced coder looking to expand your
+                skill set, Skill Route is here to guide you on your learning journey. Our platform offers comprehensive
+                courses in a variety of programming languages, including C, C++, Java, JavaScript, HTML, CSS, and MySQL.
+                Each course is carefully crafted by industry experts to provide you with the knowledge and skills you
+                need to succeed in today's digital world. But Skill Route is more than just a collection of courses.
+                We're a community of passionate learners, dedicated instructors, and supportive mentors, all working
+                together to help you achieve your goals. Whether you're struggling with a tough concept or celebrating a
+                breakthrough, you'll find a friendly and supportive environment here at Skill Route. So why wait? Start
+                your journey to mastery today with Skill Route. Join us, and unlock your full potential in the world of
+                programming. Let's code the future together!</p>
+            &copy 2024 Skill Route. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        function Login() {
+            window.location.href = 'login.html', '_blank';
+        }
+        function SignUp() {
+            window.location.href = 'sign up.html';
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS/checkbox.js"></script>
+</body>
+
+</html>

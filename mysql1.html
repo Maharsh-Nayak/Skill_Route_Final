@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySQL Learning Roadmap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/c.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="Index.html" class="navbar-brand">
+                <img src="../Pics/logo3-modified.jpg" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFFJREFUSEvtlEkKADAIA83/H52eu1APZQShnquTBaqAR/D9+IA04fqIbDuVdXkgaRK9OcABL+pPu/Ud4A7wDnAAHlF/AN4BDujfwXewJoD/pgNrVBgZX2h0sgAAAABJRU5ErkJggg==" />
+            </button>
+            <div class="links collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="Index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="">Contacts</a></li>
+                </ul>
+                <div class="user links">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <button type="button" class="btn btn-outline-primary btn-lg" onclick="Login()">Login</button>
+                        <button type="button" class="btn btn-primary btn-lg" onclick="SignUp()">Sign up</button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="heading">MySQL Roadmap</div>
+        <div class="intro">
+            <div class="card">
+                <h3>What is MySQL</h3>
+                MySQL is a database management system.
+                A database is a structured collection of data. It may be anything from a simple shopping list to a picture gallery or the vast amounts of information in a corporate network. To add, access, and process data stored in a computer database, you need a database management system such as MySQL Server. Since computers are very good at handling large amounts of data, database management systems play a central role in computing, as standalone utilities, or as parts of other applications.
+                working with memory locations, etc.
+            </div>
+            <br><br>
+            <div class="card">
+                <h3>Why learn MySQL</h3>
+                MySQL is used by many popular web applications, so if you're interested in web development, learning MySQL can give you a solid foundation for building and managing databases. Additionally, if you're a data analyst, understanding MySQL can help you better understand how data is stored and managed.
+                In conclusion, MySQL is a versatile and powerful database management system that offers a range of benefits, including open-source availability, scalability, performance, reliability, security, ease of use, and a strong community.
+            </div>
+            <br><br>
+            <div class="card">
+                <h3>The main features of the MySQL include:</h3>
+                <ul>
+                   <li> Security </li>
+                   <li> Performance</li>
+                   <li> Scalability</li>
+                   <li> Ease of use</li>
+                   <li> Open source</li>
+                   <li> Scalable</li>
+                   <li> SQL</li>
+                   <li> Connectivity</li>
+                   <li> Flexibility</li>
+                </ul>
+            </div>
+            <br><br>
+            <h3 class="last">Roadmap</h3>
+            <div class="roadmap">
+                <header>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">Beginner Level</button>
+                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                            type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Intermediate
+                            Level</button>
+                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                            type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Advanced
+                            Level</button>
+                        <button class="nav-link" id="nav-Expert-tab" data-bs-toggle="tab" data-bs-target="#nav-Expert"
+                            type="button" role="tab" aria-controls="nav-Expert" aria-selected="false">Expert
+                            Level</button>
+                    </div>
+                </header>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                        tabindex="0">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Introduction to Databases
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                       <a href="https://www.geeksforgeeks.org/introduction-of-dbms-database-management-system-set-1/">Reference Link</a>
+                                       <iframe width="100%" height="315" src="https://www.youtube.com/embed/3EJlovevfcA?si=n4-kDdVYVBvgHixp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Installation and Setup
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/">Reference Link</a>
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Sfvpgu9ID2Q?si=cF3r523ujkBimi44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Database Design and Modeling
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      <a href="https://www.mysql.com/products/workbench/design/">Reference Link</a>
+                                      <iframe width="100%" height="315" src="https://www.youtube.com/embed/F3Avo8AHmmY?si=_WrVetgjcorEyvSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                        tabindex="0">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Basic SQL Queries
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                       <a href="https://www.w3schools.com/sql/sql_syntax.asp">Reference Link</a>
+                                       <iframe width="100%" height="315" src="https://www.youtube.com/embed/_yog7h4BokQ?si=EPsbM-N1T3s73q6T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Joins and Subqueries
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                       <a href="https://www.geeksforgeeks.org/sql-join-vs-subquery/">Reference Link</a>
+                                       <iframe width="100%" height="315" src="https://www.youtube.com/embed/4_Q2pnmo1tM?si=S9NQkLU5Lzt59mLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Indexes and Performance Optimization
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="https://medium.com/towards-data-engineering/understanding-indexing-in-sql-improve-query-performance-with-data-structures-99e275f29c7d">Reference Link</a>
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/96wuo3eou0M?si=Q5qZrhhyZL9o7rsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"
+                        tabindex="0">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Transactions and ACID Properties
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                       <a href="https://www.geeksforgeeks.org/acid-properties-in-dbms/">Reference link</a>
+                                       <iframe width="100%" height="315" src="https://www.youtube.com/embed/-GS0OxFJsYQ?si=4fKFSZywCN-Na-Pg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Stored Procedures and Functions
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      <a href="https://www.geeksforgeeks.org/what-is-stored-procedures-in-sql/">Reference Link</a>
+                                      <iframe width="100%" height="315" src="https://www.youtube.com/embed/91mm8M_hs0s?si=2lU6TPfJNChgFCsb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Triggers and Events
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="https://www.ibm.com/docs/en/informix-servers/14.10?topic=statement-trigger-events">Reference Link</a>
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/TtgH6NNDC8c?si=dRb-oVgMsJi-n62Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-Expert" role="tabpanel" aria-labelledby="nav-Expert-tab"
+                        tabindex="0">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Advanced Database Administration
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                       <a href="https://noteshub.co.in/Advanced-Database-Administration">Reference Link</a>
+                                       <iframe width="100%" height="315" src="https://www.youtube.com/embed/K25vNW4rDD8?si=E60YhtIqFtzQklX6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Data Warehousing and Analytics
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                       <a href="https://www.simplilearn.com/data-warehouse-article">Reference Link</a>
+                                       <iframe width="100%" height="315" src="https://www.youtube.com/embed/NphMcnU8ymU?si=1_12Bx5RHvOECgxB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Database Migration and Integration
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="https://education.oracle.com/oracle-cloud-database-migration-and-integration-2023-certified-professional/trackp_OCDBMI2023CP">Reference Link</a>
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/zj0ZxjxHOAs?si=dAnFGbdIUTfiCUr_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Completion</h3>
+            <p class="per">0%</p>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar" style="width: 0%"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="About_us">
+            <h4>About us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur magni, nihil consequatur deserunt
+                quos quaerat odio. Enim adipisci assumenda molestiae? Ea nemo esse optio labore est at harum incidunt
+                tenetur, earum cupiditate quae? Hic, reprehenderit temporibus blanditiis molestias voluptas veritatis
+                facere doloribus provident praesentium earum a accusamus quis quod velit et corporis eum aliquam ipsam
+                fugit unde quas aliquid omnis fugiat. Dicta doloremque sint animi consectetur esse ullam error nemo
+                earum, ipsa quisquam eos soluta corrupti, delectus dolore. Blanditiis sequi quidem, ea in reiciendis
+                iure quaerat voluptatum sapiente et quod praesentium veniam, voluptates id ab deleniti ratione
+                recusandae at unde!</p>
+            &copy 2024 Skill Route. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        function Login() {
+            window.location.href = 'login.html', '_blank';
+        }
+        function SignUp() {
+            window.location.href = 'sign up.html';
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS/checkbox.js"></script>
+</body>
+</html>
